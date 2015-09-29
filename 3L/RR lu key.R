@@ -37,6 +37,7 @@
 [1] "Will ye be me pen pal?"
 
 ###########chapter2############
+
 ####Vectors 2.1####
 [1] 4 7 9
 [1] "a" "b" "c"
@@ -46,12 +47,14 @@
 [1] 5 6 7 8 9
 [1] 5.0 5.5 6.0 6.5 7.0 7.5 8.0 8.5 9.0
 [1] 9 8 7 6 5
+
 ####Vector Access 2.3####
 [1] "plank"
 [1] "walk"
 [1] "walk" "dog" 
 [1] "the" "dog" "to" 
 [1] "poop"
+
 ####Vector Names 2.4####
 > ranks <- 1:3
 > names(ranks) <- c("first", "second", "third")
@@ -67,6 +70,7 @@ first
 
 
 ####Plotting One Vector 2.5####
+
 > vesselsSunk <- c(4, 5, 1)
 > barplot(vesselsSunk)
 
@@ -87,7 +91,9 @@ first
 [1] FALSE  TRUE FALSE
 [1] 0.8414710 0.9092974 0.1411200
 [1] 1.000000 1.414214 1.732051
+
 ####Scatter Plots 2.7####
+
 > x <- seq(1, 20, 0.1)
 > y <- sin(x)
 
@@ -96,6 +102,7 @@ first
 > values <- -10:10
 > absolutes <- abs(values)
 > plot(values, absolutes)
+
 #### 2.8####
 [1] NA
 > help(sum)
@@ -112,6 +119,7 @@ Usage:
 [1] 20
 
 ###########chapter3############
+
 > matrix(0, 3, 4)
 [,1] [,2] [,3] [,4]
 [1,]    0    0    0    0
